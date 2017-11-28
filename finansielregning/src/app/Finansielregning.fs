@@ -43,7 +43,7 @@ let tsformlen' (k0: double) (r: double) (n: int) =
 
 
 
-//nth root ifølge wikipedia
+//nth root: anvendelse af newtons metode ifølge wikipedia
 //https://en.wikipedia.org/wiki/Nth_root_algorithm
 let nthroot n A =
     let rec f x =
